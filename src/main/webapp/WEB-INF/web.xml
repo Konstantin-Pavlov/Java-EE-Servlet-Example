@@ -15,6 +15,15 @@
         <url-pattern>/hello-servlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>greet</servlet-name>
+        <jsp-file>/greet.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>greet</servlet-name>
+        <url-pattern>/greeting.jsp</url-pattern>
+    </servlet-mapping>
+
 </web-app>
 
 
