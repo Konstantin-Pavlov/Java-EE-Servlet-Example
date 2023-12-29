@@ -31,8 +31,7 @@ public class FirstServlet extends HttpServlet {
         out.printf("<h1>%s</h1>%n", message);
         out.println("<h2>" + "wow" + " </h2>");
         out.println("</body></html>");
+        out.println("<br>  <a href=\"http://localhost:8080/\">homepage</a> <br>\n");
     }
 
-    public void destroy() {
-    }
 }
