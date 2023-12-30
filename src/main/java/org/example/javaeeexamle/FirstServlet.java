@@ -1,6 +1,7 @@
 package org.example.javaeeexamle;
 
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -32,6 +33,17 @@ public class FirstServlet extends HttpServlet {
         out.println("<h2>" + "wow" + " </h2>");
         out.println("</body></html>");
         out.println("<br>  <a href=\"http://localhost:8080/\">homepage</a> <br>\n");
+
+        // in this case we'll find ourselves at google start page (url in browser is https://www.google.com/)
+//        response.sendRedirect("https://www.google.com/");
+
+        // in this case, url in browser is http://localhost:8080/hello-servlet, but page content is from firstJsp.jsp
+//        RequestDispatcher dispatcher = request.getRequestDispatcher("/firstJsp.jsp");
+//        try {
+//            dispatcher.forward(request, response);
+//        } catch (ServletException e) {
+//            throw new RuntimeException(e);
+//        }
     }
 
 }
