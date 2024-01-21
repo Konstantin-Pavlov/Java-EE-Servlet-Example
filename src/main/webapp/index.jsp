@@ -17,7 +17,7 @@
     <br>  <a href="http://localhost:8080/firstJsp.jsp">Visit firstJsp to see current time</a> <br>
     <br>  <a href="http://localhost:8080/greeting.jsp?name=guest">Visit greeting page</a> <br>
     <br>  <a href="http://localhost:8080/GreetServlet?name=Tom&surname=Hanks">Visit greet servlet page</a> <br>
-    <br>  <a href="http://localhost:8080/session?name=Tom&surname=Hanks">Visit session example page</a> <br>
+    <br>  <a href="http://localhost:8080/session?name=Tom&surname=Hanks&pName=apple&quantity=42">Visit session example page</a> <br>
 
 </p>
 </body>
