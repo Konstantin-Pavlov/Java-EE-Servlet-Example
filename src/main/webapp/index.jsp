@@ -18,6 +18,9 @@
     <br>  <a href="http://localhost:8080/greeting.jsp?name=guest">Visit greeting page</a> <br>
     <br>  <a href="http://localhost:8080/GreetServlet?name=Tom&surname=Hanks">Visit greet servlet page</a> <br>
     <br>  <a href="http://localhost:8080/session?name=Tom&surname=Hanks&pName=apple&quantity=42">Visit session example page</a> <br>
+    <br>  <a href="http://localhost:8080/get-cookies">get cookies</a> <br>
+    <br>  <a href="http://localhost:8080/set-cookies">set cookies</a> <br>
+    <br>  <a href="http://localhost:8080/delete-cookies">delete cookies</a> <br>
 
 </p>
 </body>
