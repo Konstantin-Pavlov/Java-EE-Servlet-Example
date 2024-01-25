@@ -21,6 +21,7 @@
     <br>  <a href="http://localhost:8080/get-cookies">get cookies</a> <br>
     <br>  <a href="http://localhost:8080/set-cookies">set cookies</a> <br>
     <br>  <a href="http://localhost:8080/delete-cookies">delete cookies</a> <br>
+    <br>  <a href="http://localhost:8080/library-servlet">library servlet using jdbc drivers</a> <br>
 
 </p>
 </body>
